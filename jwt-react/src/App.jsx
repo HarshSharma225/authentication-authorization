@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <div className='h-screen bg-gray-700 border-amber-900 text-white'>
+    <div className='h-screen bg-gray-900 border-amber-900 text-white'>
     <Header/>
       <Routes>
         <Route path='/login' element={<Login/>}></Route>

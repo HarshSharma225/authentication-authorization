@@ -1,34 +1,38 @@
 .ip{
-    height: 10%;
-    background-color: #7995c2;
-    font-weight:900;
+    background-color: #616872;
 }
-
-.mb-3{
-    width: 50%;
-    height: 10%;
-
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    width: 70vw;
-    justify-content: center;
-}
-
 .mt-4{
     text-align: center;
     font-size: x-large;
 }
-
-/* .smt-btn{
-    background: #000;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-} */
 .smt-btm{
+    background-color: #616872;
+    border:1px solid whitesmoke;
     font-size: larger;
-    display: block;
+    display: flex;
     margin: 50px auto 0;
+}
+.smt-btm:hover {
+    background-color: #1e2835;
+    border: #616872;
+}
+.smt-btm:active{
+    background-color: #000000;
+}
+
+.compartment{
+    display: block;
+    height: 120px;
+    margin: 5px  10px 10px;
+
+}
+.boxx{
+    margin: 4vh auto;
+    display: block;
+    justify-content: center;
+    width: 35%;
+    height: 80vh;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    background-color:#1e2835;
 }
